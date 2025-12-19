@@ -126,9 +126,9 @@ function App() {
               <div className="mb-3 flex items-center justify-between">
                 <h2 className="text-sm font-medium text-white/60">输出内容</h2>
                 <div className="flex items-center gap-2">
-                  {result?.jinaUrl && (
+                  {result?.sourceUrl && (
                     <a
-                      href={result.jinaUrl}
+                      href={result.sourceUrl}
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex items-center gap-1.5 rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-white/50 transition-colors hover:bg-white/10 hover:text-white/70"
@@ -206,12 +206,12 @@ function App() {
           <p>
             Powered by{' '}
             <a
-              href="https://jina.ai/reader"
+              href="https://prompt-minder.com"
               target="_blank"
               rel="noreferrer noopener"
               className="text-white/40 underline decoration-white/20 underline-offset-2 hover:text-white/60"
             >
-              Jina Reader
+              Prompt Minder
             </a>
           </p>
         </footer>
